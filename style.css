@@ -1,0 +1,114 @@
+/*
+Colors:
+
+Pink: #E36397
+
+Purplish: #BC8DA7
+
+Greyish: #BDB4BF
+
+Light-grey: #D9D9D9
+
+Whitish: #EFF2EF
+*/
+td, table {
+  border: 1px solid black;
+  font-family: 'Taviraj', serif;
+}
+
+/*Use of Tag Selector*/
+table {
+  width: 70%;
+  background-color: #BC8DA7;
+  font-family: 'Taviraj', serif;
+}
+
+/* Use of Class Selector*/
+.headerSection {
+  background-color: #BC8DA7;
+  border-style: groove;
+  border-color: #D9D9D9;
+  font-family: 'Tangerine', cursive;
+}
+
+/* Use of ID Selector */
+#Links {
+  width: 12%;
+  font-family: 'Taviraj', serif;
+}
+
+header {
+  font-size: 100px;
+  color: #EFF2EF;
+  text-align: center;
+  padding-top: .2%;
+  padding-bottom: .2%;
+  margin-top:.1%;
+  margin-bottom:.1%;
+}
+
+body {
+  background-color: #E36397;
+}
+
+h1 {
+  color: #D9D9D9;
+  font-family: 'Taviraj', serif;
+}
+
+/* Tag and Class Selector */
+p.Table {
+  color: #EFF2EF;
+  font-size: 17px;
+  font-family: 'Taviraj', serif;
+}
+
+p.OutsideTable {
+  color: #EFF2EF;
+  font-size: 25px;
+  font-family: 'Taviraj', serif;
+}
+
+h1.headerSubtitle {
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+  color: #D9D9D9;
+  font-family: 'Taviraj', serif;
+}
+
+footer {
+  color: #EFF2EF;
+  font-family: 'Taviraj', serif;
+}
+
+th {
+  font-size: 35px;
+  font-family: 'Taviraj', serif;
+  color: #D9D9D9;
+
+}
+
+ul.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd;
+
+}
+
+li.navBar {
+  display: inline;
+  padding: 4px;
+}
+
+li.active {
+  display: inline;
+  padding: 4px;
+  background-color: #BC8DA7;
+  border-left: groove;
+  border-right: groove;
+  border-top: groove;
+}
