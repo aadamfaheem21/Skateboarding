@@ -1,0 +1,72 @@
+@pink: #E36397;
+@purplish: #BC8DA7;
+@greyish: #BDB4BF;
+@lightgrey: #D9D9D9;
+@whitish: #EFF2EF;
+@import "https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@1,200&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap";
+
+
+
+header {
+  background-color: @purplish;
+  text-align: center;
+}
+
+.navbar {
+  background-color: lighten(@pink, 20%)
+}
+.body1 {
+  background-color: @pink;
+}
+
+.pageTitle{
+  font-size: 100px;
+  font-family: 'Tangerine', serif;
+}
+
+.head{
+  color: @lightgrey;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+}
+
+.sub-head{
+  color: @greyish;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+}
+.text{
+  color: @whitish;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+}
+.nav-item {
+  .sub-head();
+  font-size: 20px;
+  text-align: left;
+}
+
+.blog-head {
+  .head();
+  text-align: left;
+}
+
+.blog-sub-head {
+  .sub-head();
+  font-size: 35px;
+  text-align: left;
+}
+
+.blog-text {
+  .text();
+  text-align: left;
+}
+
+.TrickName {
+  color: @lightgrey;
+  font-family: 'Taviraj', serif;
+
+}

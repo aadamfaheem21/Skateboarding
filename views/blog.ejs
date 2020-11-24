@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>
+    <%=data.trickname%>
+  </title>
+  <meta name="author" content="Aadam Faheem">
+  <meta name="description" content="A compendium of Skateboarding Tricks">
+
+  <%- include('global/header.ejs') %>
+  <%- include('global/navbar.ejs') %>
+  <br>
+  <section id="blog-info">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="page-header">
+            <h3 class="TrickName">Trick Name:
+              <%= data.trickname %><small>Author:
+                <%= data.author %></small></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h4 class="blog-sub-head">Trick Difficulty:
+            <%= data.difficulty %>
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <h4 class="blog-sub-head">Date posted:
+            <%= data.date %>
+          </h4>
+        </div>
+      </div>
+      <% for(paragraph of data.description) {%>
+      <div class="row">
+        <div class="col-12 blog-text">
+          <h5 class="blog-text">
+            <%= paragraph %>
+          </h5>
+        </div>
+      </div>
+      <%}%>
+      <div class="row"> 
+        <div class="col-12"> 
+          <p><span class="font-italic">Tags:</span> 
+            <% for(hashtag of data.hashtags){%>  <span class="badge badge-pill badge-light">
+              <%= "#" + hashtag; %></span> 
+            <%} %> 
+          </p> 
+          </div> 
+        </div>
+    </div>
+  </section>
+  <%- include('global/footer.ejs') %>
+  </body>
+
+</html>

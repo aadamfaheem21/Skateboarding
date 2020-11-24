@@ -1,0 +1,25 @@
+[
+  {"trickname": "Ollie",
+  "difficulty": "Easy",
+  "author": "Aadam Faheem",
+  "date": "11/23/20",
+  "description": ["The ollie is the most most basic and foundational trick in skateboarding. An ollie occurs when a person kicks the tail of their board to the ground and drags their front foot up the board. This motion propels the board into the air, creating the ollie. Learing the ollie is necessary to complete most other tricks.",
+  "As most tricks require getting the boardoff the ground,learning to ollie allows one to practice popping and dragging the foot. Most people find it hard to learn at first, but with practice it can be mastered."],
+  "hashtags" : ["easytrick", "funtolearn"]
+  }, {"trickname": "Shove-it",
+    "difficulty": "Easy",
+    "author": "Aadam Faheem",
+    "date": "11/23/20",
+    "description": ["The shove-it is another basic and foundation trick in skateboarding. To shove-it, one must use their foot to sweep the board from under them, spinning it 180 degrees and landing on it. There are two variations: frontside shove-its and backside shove-its. Learing the shove-it is necessary to complete most other tricks.",
+    "As most tricks require getting the boardto rotate,learning to ollie allows one to practice shoving the board landing on it. Of most of the basic tricks, it is the easiest to learn."],
+    "hashtags" : ["shuvismyluv", "funtolearn"]
+    }, {
+      "trickname": "Kickflip",
+      "difficulty": "Medium",
+      "author": "Aadam Faheem",
+      "date": "11/23/20",
+      "description": ["The kickflip is another basic and foundation trick in skateboarding. To kickflip, one must use their front foot to flip the board, landing on it after it flips on its short axis one rotation. Many often find learning to kickflip to be an intimidating task. However, with a lot of practice and dedication, you can master it!!",
+        "The kickflip is a fooundational trick as it is used in many other tricks. Some other tricks that use it are varial flips and trey flips. Learning to kickflip is one of the most satisfying feelings in the world!!"],
+        "hashtags" : ["kickflipforthewin", "niceprogress"]
+      }
+    ]

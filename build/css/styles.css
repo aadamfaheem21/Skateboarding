@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Taviraj';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/taviraj/v6/ahcev8Cj3ylylTXzTOwTn-hRhQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/tangerine/v12/Iurd6Y5j_oScZZow4VO5srNpjA.ttf) format('truetype');
+}
+header {
+  background-color: #BC8DA7;
+  text-align: center;
+}
+.navbar {
+  background-color: #f3b9d1;
+}
+.body1 {
+  background-color: #E36397;
+}
+.pageTitle {
+  font-size: 100px;
+  font-family: 'Tangerine', serif;
+}
+.head {
+  color: #D9D9D9;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+}
+.sub-head {
+  color: #BDB4BF;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+}
+.text {
+  color: #EFF2EF;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+}
+.nav-item {
+  color: #BDB4BF;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-size: 20px;
+  text-align: left;
+}
+.blog-head {
+  color: #D9D9D9;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  text-align: left;
+}
+.blog-sub-head {
+  color: #BDB4BF;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-size: 35px;
+  text-align: left;
+}
+.blog-text {
+  color: #EFF2EF;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  text-align: left;
+}
+.TrickName {
+  color: #D9D9D9;
+  font-family: 'Taviraj', serif;
+}
